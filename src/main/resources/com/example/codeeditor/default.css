@@ -1,0 +1,94 @@
+/* Adjust the font size of the content (code area) */
+.code-editor {
+    -fx-background-color: transparent; /* Dark background */
+    -fx-highlight-fill: #3e3e3e; /* Highlight background for selected text */
+    -fx-highlight-text-fill: white; /* Text color for highlighted text */
+    -fx-font-family: Consolas, monospace; /* Monospace font for code */
+    -fx-text-fill: #d4d4d4; /* Default text color */
+    -fx-padding: 0;
+    -fx-border-color: transparent;
+}
+
+.code-editor .caret {
+    -fx-stroke: #ffffff; /* Sets the caret color to white */
+}
+
+/* Line number styling */
+.line-number {
+    -fx-background-color: #2b2b2b; /* Dark background */
+    -fx-text-fill: #a9b7c6; /* Light text color */
+    -fx-padding: 0 5px; /* Add some padding for spacing */
+    -fx-font-family: Consolas, Monaco, "Courier New", monospace; /* Monospace font */
+    -fx-alignment: center-right; /* Align text to the right */
+}
+
+.label.lineno {
+    -fx-background-color: #2b2b2b; /* Dark background */
+    -fx-text-fill: #a9b7c6; /* Light text */
+}
+
+/* Syntax Highlighting (content-specific) */
+.access-modifier {
+    -fx-fill: #569cd6; /* Light blue for access modifiers */
+    -fx-font-weight: bold;
+    -fx-font-family: 'Courier New', monospace; /* Monospace font for keywords */
+}
+
+.control-flow {
+    -fx-fill: #c586c0; /* Purple for control flow keywords */
+    -fx-font-weight: bold;
+    -fx-font-family: 'Arial', sans-serif; /* Sans-serif for control flow */
+    -fx-text-decoration: underline; /* Underline control flow keywords */
+}
+
+.data-type {
+    -fx-fill: #4ec9b0; /* Cyan for data types */
+    -fx-font-weight: bold;
+    -fx-font-family: 'Times New Roman', serif; /* Serif font for data types */
+}
+
+.other-keyword {
+    -fx-fill: #dcdcaa; /* Gold for other keywords */
+    -fx-font-family: 'Comic Sans MS', cursive; /* Playful font for other keywords */
+    -fx-font-style: italic;
+}
+
+.parenthesis, .brace, .bracket, .semicolon {
+    -fx-fill: #d4d4d4; /* Light grey for symbols */
+    -fx-font-family: 'Courier New', monospace; /* Monospace font for symbols */
+}
+
+.string {
+    -fx-fill: #ce9178; /* Soft red for strings */
+    -fx-font-family: 'Georgia', serif; /* Serif font for strings */
+    -fx-font-style: italic;
+}
+
+.char {
+    -fx-fill: #d7ba7d; /* Light gold for characters */
+    -fx-font-family: 'Courier New', monospace; /* Monospace for characters */
+    -fx-font-style: normal;
+}
+
+.number {
+    -fx-fill: #b5cea8; /* Soft green for numbers */
+    -fx-font-family: 'Verdana', sans-serif; /* Sans-serif font for numbers */
+    -fx-font-style: italic;
+}
+
+.comment {
+    -fx-fill: #6a9955; /* Green for comments */
+    -fx-font-family: 'Lucida Console', monospace; /* Monospace for comments */
+    -fx-font-style: italic;
+}
+
+.default {
+    -fx-fill: white;
+    -fx-font-family: 'Arial', sans-serif; /* Default font for other text */
+}
+
+/* Matching Bracket */
+.matching-bracket {
+    -fx-fill: gray;
+    -fx-font-family: 'Courier New', monospace; /* Monospace for matching brackets */
+}

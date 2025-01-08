@@ -1,0 +1,52 @@
+.code-editor {
+    -fx-font-size: 14px;
+}
+
+.line-number {
+    -fx-font-size: 12px;
+}
+
+.control-flow {
+    -fx-font-size: 14px;
+}
+
+.data-type {
+    -fx-font-size: 14px;
+}
+
+.other-keyword {
+    -fx-font-size: 14px;
+}
+
+.parenthesis, brace, .bracket, .semicolon {
+    -fx-font-size: 14px;
+}
+
+.string {
+    -fx-font-size: 14px;
+}
+
+.number {
+    -fx-font-size: 14px;
+}
+
+.comment {
+    -fx-font-size: 13px;
+}
+
+.access-modifier {
+    -fx-font-size: 14px;
+}
+
+.char {
+    -fx-font-size: 14px;
+}
+
+.default {
+    -fx-font-size: 14px;
+}
+
+.matching-bracket {
+    -fx-font-size: 14px;
+}
+

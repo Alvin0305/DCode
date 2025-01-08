@@ -1,0 +1,69 @@
+/* General Styling for TopMenuBar */
+.top-menu-bar {
+    -fx-background-color: #101010; /* Dark background */
+    -fx-padding: 5px 10px; /* Add some spacing around */
+    -fx-spacing: 10px; /* Space between components */
+}
+
+/* MenuBar Styling */
+.menu-bar {
+    -fx-background-color: transparent; /* Match the parent background */
+    -fx-padding: 0;
+    -fx-border-color: #444444; /* Subtle border for separation */
+    -fx-border-width: 0 0 1px 0; /* Bottom border only */
+    -fx-border-style: solid;
+    -fx-font-family: "Arial", sans-serif; /* Clean font */
+    -fx-font-size: 14px;
+}
+
+/* Menu Styling */
+.menu:hover {
+    -fx-base: #3a3a3a; /* Lighter background on hover */
+    -fx-text-base-color: #ffffff; /* White text on hover */
+}
+
+/* MenuItem Styling */
+
+
+/* Spacer Region Styling */
+.region {
+    -fx-background-color: transparent; /* Ensure no visual appearance */
+}
+
+/* Run Button Styling */
+.run-button {
+    -fx-background-color: #101010; /* Dark button background */
+    -fx-text-fill: #b0b0b0; /* Gray text color */
+    -fx-border-radius: 3px;
+    -fx-background-radius: 3px;
+    -fx-padding: 5 10 5 10;
+}
+
+.run-button:hover {
+    -fx-background-color: #5c5c5c; /* Slightly lighter on hover */
+    -fx-text-fill: #ffffff; /* White text on hover */
+}
+
+.run-button:pressed {
+    -fx-background-color: #1c1c1c; /* Darker when pressed */
+    -fx-text-fill: #ffcc00; /* Accent text on press */
+}
+
+/* FontIcon Styling */
+.font-icon {
+    -fx-icon-color: #00ff00; /* Default green color */
+}
+
+.run-button:hover .font-icon {
+    -fx-icon-color: #ffffff; /* White icon on hover */
+}
+
+#debug-menu {
+    -fx-base: #050505;
+    -fx-text-base-color: #b0b0b0;
+}
+
+#debug-menu-item {
+    -fx-base: #050505;
+    -fx-text-base-color: #b0b0b0;
+}

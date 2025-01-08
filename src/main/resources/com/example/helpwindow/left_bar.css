@@ -1,0 +1,54 @@
+.top {
+    -fx-padding: 10 10 10 0;
+}
+
+.vbox {
+    -fx-padding: 10 10 10 10;
+    -fx-background-color: #111111;
+}
+
+.button {
+    -fx-background-color: #111111;
+    -fx-padding: 20 20 20 20;
+    -fx-background-radius: 30;
+}
+
+.button: hover {
+    -fx-background-color: #555555;
+}
+
+.heading {
+    -fx-text-fill: white;
+    -fx-font-size: 24;
+}
+
+.sub-heading {
+    -fx-padding: 0 0 0 20;
+    -fx-text-fill: #888888;
+    -fx-font-size: 18;
+}
+
+.list {
+    -fx-border-width: 0;
+    -fx-control-inner-background: #111111;
+    -fx-background-color: #111111;
+}
+
+.list .list-cell {
+    -fx-padding: 10 10 10 10;
+    -fx-text-fill: #bbbbbb;
+    -fx-control-inner-background: #111111;
+    -fx-font-size: 13;
+    -fx-border-width: 0;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-margin-bottom: 2px;
+}
+
+.list .list-cell: hover {
+    -fx-control-inner-background: #555555;
+}
+
+.separator {
+    -fx-fill: white;
+}

@@ -1,0 +1,69 @@
+.code-editor {
+    -fx-background-color: #FDF6E3;
+    -fx-highlight-fill: #EEE8D5;
+    -fx-highlight-text-fill: #586E75;
+    -fx-font-family: Consolas, monospace;
+    -fx-text-fill: #657B83;
+    -fx-padding: 0;
+    -fx-border-color: transparent;
+}
+
+.code-editor .caret {
+    -fx-stroke: #657B83;
+}
+
+.line-number {
+    -fx-background-color: #EEE8D5;
+    -fx-text-fill: #93A1A1;
+    -fx-padding: 0 5px;
+    -fx-font-family: Consolas, monospace;
+    -fx-alignment: center-right;
+}
+
+.access-modifier {
+    -fx-fill: #268BD2; /* Blue */
+    -fx-font-weight: bold;
+}
+
+.control-flow {
+    -fx-fill: #DC322F; /* Red */
+    -fx-font-weight: bold;
+}
+
+.data-type {
+    -fx-fill: #2AA198; /* Cyan */
+}
+
+.other-keyword {
+    -fx-fill: #859900; /* Green */
+}
+
+.parenthesis, .brace, .bracket, .semicolon {
+    -fx-fill: #586E75; /* Grey */
+}
+
+.string {
+    -fx-fill: #B58900; /* Yellow */
+}
+
+.char {
+    -fx-fill: #6C71C4; /* Violet */
+}
+
+.number {
+    -fx-fill: #D33682; /* Magenta */
+}
+
+.comment {
+    -fx-fill: #93A1A1; /* Light Grey */
+    -fx-font-style: italic;
+}
+
+.matching-bracket {
+    -fx-fill: #DC322F;
+}
+
+.default {
+    -fx-fill: #657B83;
+}
+

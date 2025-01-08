@@ -1,0 +1,61 @@
+/* Styling for the TextArea */
+.message-box {
+    -fx-background-color: #001100 !important; /* Set the background color */
+    -fx-border-color: transparent !important; /* Remove borders */
+    -fx-padding: 0 !important; /* Remove inner padding */
+    -fx-border-width: 0 !important; /* Remove border width */
+    -fx-background-insets: 0 !important; /* Remove inset shadows */
+    -fx-background-radius: 0 !important; /* Remove corner rounding */
+    -fx-focus-color: transparent !important; /* Remove focus border color */
+    -fx-faint-focus-color: transparent !important; /* Remove faint focus border */
+    -fx-effect: null !important; /* Remove any shadow or glow effects */
+}
+
+.text-area {
+    -fx-control-inner-background: #001100; /* Dark background color */
+    -fx-font-family: 'Verdana'; /* Font family */
+    -fx-font-size: 16px; /* Font size */
+    -fx-text-fill: white; /* Text color */
+    -fx-border-color: transparent; /* Explicitly remove the border */
+    -fx-border-width: 0; /* Explicitly set the border width to 0 */
+    -fx-padding: 0; /* Remove padding */
+    -fx-background-insets: 0; /* Remove insets */
+    -fx-background-radius: 0; /* Remove rounded corners */
+    -fx-focus-color: transparent; /* Remove focus border */
+    -fx-faint-focus-color: transparent; /* Remove faint focus border */
+}
+
+.scroll-pane {
+    -fx-background-color: #001100 !important; /* Set background color */
+    -fx-border-color: transparent !important; /* Remove borders */
+    -fx-padding: 0 !important;
+    -fx-border-width: 0 !important;
+    -fx-background-insets: 0 !important;
+}
+
+/* Styling for Buttons */
+.button {
+    -fx-background-color: linear-gradient(to bottom, #505050, #303030); /* Default: dark gray to very dark gray */
+    -fx-text-fill: white; /* White text for high contrast */
+    -fx-font-size: 14px; /* Font size */
+    -fx-font-weight: bold; /* Bold font */
+    -fx-padding: 8 8; /* Padding for button */
+    -fx-border-radius: 0;  /* Removes rounded corners */
+    -fx-background-radius: 0; /* Removes background radius */
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.4), 5, 0, 0, 2); /* Stronger shadow */
+    -fx-cursor: hand; /* Hand cursor on hover */
+    -fx-border-color: transparent; /* Explicitly remove the border */
+    -fx-border-width: 0; /* Remove border width */
+}
+
+/* Hover state for buttons */
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #606060, #404040); /* Hover: dark gray gradient, slightly lighter */
+}
+
+/* Pressed state for buttons */
+.button:pressed {
+    -fx-background-color: linear-gradient(to bottom, #202020, #303030); /* Pressed: very dark gray gradient */
+    -fx-effect: none; /* Remove shadow effect when pressed */
+    -fx-border-color: transparent; /* Ensure no border when pressed */
+}

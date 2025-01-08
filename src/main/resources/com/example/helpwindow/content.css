@@ -1,0 +1,90 @@
+.root {
+    -fx-background-color: #222222;
+    -fx-padding: 10;
+}
+
+._heading {
+    -fx-font-size: 40px;
+}
+
+.first-heading {
+    -fx-font-size: 24px;
+}
+
+.second-heading {
+    -fx-font-size: 20px;
+}
+
+.general-text {
+    -fx-font-size: 16px;
+}
+
+.heading {
+    -fx-text-fill: white;
+}
+
+.description {
+    -fx-text-fill: white;
+}
+
+.lang-label {
+    -fx-background-color: #111111;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 5 20 5 20;
+}
+
+.lang-label: hover {
+    -fx-background-color: #333333;
+}
+
+.lang-label: pressed {
+    -fx-background-color: #555555;
+}
+
+.code {
+    -fx-background-color: #050505;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 10 10 10 10;
+}
+
+.keyword {
+    -fx-fill: orange;
+    -fx-font-size: 16px;
+}
+
+.comment {
+    -fx-fill: gray;
+    -fx-font-size: 16px;
+}
+
+.string {
+    -fx-fill: green;
+    -fx-font-size: 16px;
+}
+
+.normal {
+    -fx-fill: white;
+    -fx-font-size: 16px;
+}
+
+.copy-button {
+    -fx-layout-x: -10;
+    -fx-layout-y: 10;
+    -fx-padding: 5 10 5 10;
+    -fx-background-color: #555555;
+    -fx-text-fill: white;
+}
+
+.copy-button: hover {
+    -fx-background-color: #333333;
+}
+
+.copy-button: pressed {
+    -fx-background-color: #222222;
+}
+
+.separator {
+    -fx-fill: white;
+}

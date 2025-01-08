@@ -1,0 +1,281 @@
+/* Adjust the font size of the content (code area) */
+.code-editor {
+    -fx-background-color: #ffffff; /* Light background */
+    -fx-highlight-fill: #cce5ff; /* Highlight background for selected text */
+    -fx-highlight-text-fill: #000000; /* Text color for highlighted text */
+    -fx-font-family: Consolas, monospace; /* Monospace font for code */
+    -fx-font-size: 16px; /* Increased font size for the content */
+    -fx-text-fill: #333333; /* Default text color */
+    -fx-padding: 0;
+    -fx-border-color: #dddddd; /* Subtle border for the editor */
+}
+
+.code-editor .caret {
+    -fx-stroke: #000000; /* Sets the caret color to black */
+}
+
+/* Line number styling */
+.line-number {
+    -fx-background-color: #f0f0f0; /* Light grey background */
+    -fx-text-fill: #555555; /* Dark grey text color */
+    -fx-padding: 0 5px; /* Add some padding for spacing */
+    -fx-font-family: Consolas, Monaco, "Courier New", monospace; /* Monospace font */
+    -fx-font-size: 12px; /* Smaller font size for line numbers */
+    -fx-alignment: center-right; /* Align text to the right */
+}
+
+.label.lineno {
+    -fx-background-color: #f0f0f0; /* Light grey background */
+    -fx-text-fill: #555555; /* Dark grey text */
+}
+
+/* Syntax Highlighting (content-specific) */
+.access-modifier {
+    -fx-fill: #0056b3; /* Dark blue for access modifiers */
+    -fx-font-weight: bold;
+    -fx-font-family: 'Courier New', monospace; /* Monospace font for keywords */
+    -fx-font-size: 16px;
+}
+
+.control-flow {
+    -fx-fill: #8a2be2; /* Purple for control flow keywords */
+    -fx-font-weight: bold;
+    -fx-font-family: 'Arial', sans-serif; /* Sans-serif for control flow */
+    -fx-font-size: 16px;
+    -fx-text-decoration: underline; /* Underline control flow keywords */
+}
+
+.data-type {
+    -fx-fill: #00796b; /* Teal for data types */
+    -fx-font-weight: bold;
+    -fx-font-family: 'Times New Roman', serif; /* Serif font for data types */
+    -fx-font-size: 16px;
+}
+
+.other-keyword {
+    -fx-fill: #e67e22; /* Orange for other keywords */
+    -fx-font-family: 'Comic Sans MS', cursive; /* Playful font for other keywords */
+    -fx-font-style: italic;
+    -fx-font-size: 16px;
+}
+
+.parenthesis, .brace, .bracket, .semicolon {
+    -fx-fill: #333333; /* Dark grey for symbols */
+    -fx-font-family: 'Courier New', monospace; /* Monospace font for symbols */
+    -fx-font-size: 16px;
+}
+
+.string {
+    -fx-fill: #d32f2f; /* Red for strings */
+    -fx-font-family: 'Georgia', serif; /* Serif font for strings */
+    -fx-font-style: italic;
+    -fx-font-size: 16px;
+}
+
+.char {
+    -fx-fill: #fbc02d; /* Gold for characters */
+    -fx-font-family: 'Courier New', monospace; /* Monospace for characters */
+    -fx-font-style: normal;
+    -fx-font-size: 16px;
+}
+
+.number {
+    -fx-fill: #388e3c; /* Green for numbers */
+    -fx-font-family: 'Verdana', sans-serif; /* Sans-serif font for numbers */
+    -fx-font-style: italic;
+    -fx-font-size: 16px;
+}
+
+.comment {
+    -fx-fill: #616161; /* Grey for comments */
+    -fx-font-family: 'Lucida Console', monospace; /* Monospace for comments */
+    -fx-font-style: italic;
+    -fx-font-size: 15px;
+}
+
+.default {
+    -fx-fill: #000000; /* Black for default text */
+    -fx-font-family: 'Arial', sans-serif; /* Default font for other text */
+    -fx-font-size: 16px;
+}
+
+/* Matching Bracket */
+.matching-bracket {
+    -fx-fill: #9e9e9e;
+    -fx-font-family: 'Courier New', monospace; /* Monospace for matching brackets */
+    -fx-font-size: 16px;
+}
+
+/* ScrollPane Styling */
+.menu-scroll-pane {
+    -fx-background-color: #f7f7f7; /* Light grey background for scroll pane */
+    -fx-border-color: #cccccc; /* Subtle border for separation */
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+}
+
+/* VBox Container Styling */
+.menu-box {
+    -fx-background-color: #ffffff; /* Match the editor's light background */
+}
+
+/* Individual Menu Item Styling */
+.menu-item {
+    -fx-background-color: transparent; /* Transparent for seamless integration */
+    -fx-border-color: #eeeeee; /* Subtle divider color */
+    -fx-border-width: 0 0 1px 0; /* Bottom border for separation */
+    -fx-padding: 8px 12px;
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333; /* Dark grey text */
+    -fx-alignment: center-left;
+    -fx-cursor: hand;
+}
+
+.menu-item:hover {
+    -fx-background-color: #e0e0e0; /* Light grey hover effect */
+    -fx-text-fill: #000000; /* Black text for hover */
+}
+
+/* Scrollbar Styling */
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #bbbbbb; /* Light grey scrollbar thumb */
+    -fx-border-color: #cccccc; /* Subtle border */
+    -fx-border-radius: 4px;
+}
+
+.scroll-bar:vertical .thumb:hover {
+    -fx-background-color: #aaaaaa; /* Darker grey on hover */
+}
+
+.error-line {
+    -fx-background-color: rgba(255, 0, 0, 0.1);
+}
+
+/* Style for the tab bar (light theme) */
+.tab-bar {
+    -fx-background-color: #f2f2f2; /* Light background for the tab bar */
+    -fx-padding: 5px;
+    -fx-alignment: center-left;
+    -fx-border-radius: 10px;
+}
+
+/* Style for the name button (file name) */
+.name-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #555555; /* Dark grey text */
+    -fx-font-size: 14px;
+    -fx-border-width: 0;
+    -fx-alignment: center-left;
+    -fx-padding: 8 10 8 10;
+}
+
+/* Hover effect for name button - light theme with grey shades */
+.name-button:hover {
+    -fx-background-color: #e0e0e0; /* Light grey on hover */
+    -fx-text-fill: #000000; /* Black text */
+}
+
+/* Style for the close button */
+.close-button {
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+    -fx-padding: 0;
+    -fx-alignment: center-right;
+    -fx-padding: 8 5 8 5;
+}
+
+/* Hover effect for close button */
+.close-button:hover {
+    -fx-background-color: #e0e0e0; /* Light grey on hover */
+    -fx-text-fill: #000000; /* Black icon */
+}
+
+/* Style for the currently selected tab (light theme) */
+.selected-tab {
+    -fx-background-color: #d9d9d9; /* Highlight selected tab */
+    -fx-text-fill: #000000; /* Black text for visibility */
+    -fx-font-weight: bold;
+}
+
+/* Style for the selected tab name button */
+.selected-tab .name-button {
+    -fx-background-color: #cccccc; /* Slightly darker grey for the name button */
+    -fx-text-fill: #000000; /* Black text */
+}
+
+/* Optional: Style for selected tab close button */
+.selected-tab .close-button {
+    -fx-background-color: #cccccc; /* Slightly darker grey */
+}
+
+.underline-filename {
+    -fx-background-color: #00695c; /* Teal */
+    -fx-min-height: 2px; /* Height of the underline */
+    -fx-pref-height: 2px;
+    -fx-max-height: 2px;
+    -fx-border-width: 0;
+}
+
+.code-editor-vbox {
+    -fx-background-color: #f9f9f9; /* Light background */
+}
+
+/* Styles for the HBox container */
+.input-box {
+    -fx-padding: 10;               /* Padding around the HBox */
+    -fx-spacing: 10;               /* Space between children */
+    -fx-alignment: center-left;    /* Align children to the left and center vertically */
+    -fx-background-color: #f7f7f7; /* Light grey background */
+    -fx-border-color: #b0b0b0;     /* Light gray border color */
+    -fx-border-width: 1;           /* Thin border width */
+    -fx-border-radius: 5px;        /* Rounded corners for the border */
+    -fx-background-radius: 5px;    /* Rounded corners for the background */
+}
+
+/* Styles for the title Text */
+.input-box .text {
+    -fx-fill: #000000;             /* Black text color */
+    -fx-font-size: 14px;           /* Font size */
+    -fx-font-weight: bold;         /* Bold text */
+}
+
+/* Styles for the TextField */
+.input-box .text-field {
+    -fx-background-color: #ffffff; /* White background for the text field */
+    -fx-text-fill: #000000;        /* Black text color */
+    -fx-font-size: 14px;           /* Font size */
+    -fx-padding: 5;                /* Padding inside the text field */
+    -fx-border-color: #cccccc;     /* Border color matching the HBox */
+    -fx-border-width: 1;           /* Thin border */
+    -fx-border-radius: 5px;        /* Rounded corners for the border */
+    -fx-background-radius: 5px;    /* Rounded corners for the background */
+}
+
+/* Styles for the Button */
+.input-box .button {
+    -fx-background-color: #007bff; /* Blue background for the button */
+    -fx-text-fill: #ffffff;        /* White text color */
+    -fx-font-size: 14px;           /* Font size */
+    -fx-font-weight: bold;         /* Bold text */
+    -fx-padding: 5 10;             /* Padding inside the button */
+    -fx-border-radius: 5px;        /* Rounded corners for the button */
+    -fx-background-radius: 5px;    /* Rounded corners for the background */
+}
+
+/* Hover effect for the Button */
+.input-box .button:hover {
+    -fx-background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Optional focus effect for the TextField */
+.input-box .text-field:focused {
+    -fx-border-color: #007bff;     /* Blue border when focused */
+    -fx-border-width: 2;           /* Thicker border when focused */
+}
+
+/* Optional focus effect for the Button */
+.input-box .button:focused {
+    -fx-background-color: #0056b3; /* Darker blue when focused */
+}
+

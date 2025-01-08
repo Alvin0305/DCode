@@ -1,0 +1,73 @@
+.code-editor {
+    -fx-background-color: #272822;
+    -fx-highlight-fill: #49483E;
+    -fx-highlight-text-fill: #F8F8F2;
+    -fx-font-family: Consolas, monospace;
+    -fx-text-fill: #F8F8F2;
+    -fx-padding: 0;
+    -fx-border-color: transparent;
+}
+
+.code-editor .caret {
+    -fx-stroke: #F8F8F0;
+}
+
+.line-number {
+    -fx-background-color: #3E3D32;
+    -fx-text-fill: #75715E;
+    -fx-padding: 0 5px;
+    -fx-font-family: Consolas, monospace;
+    -fx-alignment: center-right;
+}
+
+.label.lineno {
+    -fx-background-color: #2b2b2b; /* Dark background */
+    -fx-text-fill: #a9b7c6; /* Light text */
+}
+
+.access-modifier {
+    -fx-fill: #66D9EF; /* Cyan */
+    -fx-font-weight: bold;
+}
+
+.control-flow {
+    -fx-fill: #F92672; /* Pink */
+    -fx-font-weight: bold;
+}
+
+.data-type {
+    -fx-fill: #A6E22E; /* Green */
+}
+
+.other-keyword {
+    -fx-fill: #FD971F; /* Orange */
+}
+
+.parenthesis, .brace, .bracket, .semicolon {
+    -fx-fill: #F8F8F2; /* White */
+}
+
+.string {
+    -fx-fill: #E6DB74; /* Yellow */
+}
+
+.char {
+    -fx-fill: #AE81FF; /* Purple */
+}
+
+.number {
+    -fx-fill: #AE81FF; /* Purple */
+}
+
+.comment {
+    -fx-fill: #75715E; /* Grey */
+    -fx-font-style: italic;
+}
+
+.matching-bracket {
+    -fx-fill: #F92672;
+}
+
+.default {
+    -fx-fill: #F8F8F2;
+}

@@ -1,0 +1,179 @@
+/* ScrollPane Styling */
+.menu-scroll-pane {
+    -fx-background-color: #252526; /* Slightly darker grey background for scroll pane */
+    -fx-border-color: #3e3e42; /* Subtle border for separation */
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+}
+
+/* VBox Container Styling */
+.menu-box {
+    -fx-background-color: #1e1e1e; /* Match the editor's dark background */
+}
+
+/* Individual Menu Item Styling */
+.menu-item {
+    -fx-background-color: transparent; /* Transparent for seamless integration */
+    -fx-border-color: #3e3e42; /* Subtle divider color */
+    -fx-border-width: 0 0 1px 0; /* Bottom border for separation */
+    -fx-padding: 8px 12px;
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 14px;
+    -fx-text-fill: #d4d4d4; /* Light grey text */
+    -fx-alignment: center-left;
+    -fx-cursor: hand;
+}
+
+.menu-item:hover {
+    -fx-background-color: #333333; /* Darker grey hover effect */
+    -fx-text-fill: #ffffff; /* Bright text for hover */
+}
+
+/* Scrollbar Styling */
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #555555; /* Grey scrollbar thumb */
+    -fx-border-color: #3e3e42; /* Subtle border */
+    -fx-border-radius: 4px;
+}
+
+.scroll-bar:vertical .thumb:hover {
+    -fx-background-color: #808080; /* Lighter grey on hover */
+}
+
+.error-line {
+    -fx-background-color: rgba(255, 0, 0, 0.2);
+}
+
+/* Style for the tab bar (dark theme) */
+.tab-bar {
+    -fx-background-color: #2e2e2e; /* Dark background for the tab bar */
+    -fx-padding: 5px;
+    -fx-alignment: center-left;
+    -fx-border-radius: 10px;
+}
+
+/* Style for the name button (file name) */
+.name-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ddd; /* Light grey text for the dark theme */
+    -fx-font-size: 14px;
+    -fx-border-width: 0;
+    -fx-alignment: center-left;
+    -fx-padding: 8 10 8 10;
+}
+
+/* Hover effect for name button - dark theme with grey shades */
+.name-button:hover {
+    -fx-background-color: #444; /* Darker grey on hover */
+    -fx-text-fill: #fff; /* White text */
+}
+
+/* Style for the close button */
+.close-button {
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+    -fx-padding: 0;
+    -fx-alignment: center-right;
+    -fx-padding: 8 5 8 5;
+}
+
+/* Hover effect for close button */
+.close-button:hover {
+    -fx-background-color: #444; /* Dark grey on hover */
+    -fx-text-fill: #fff; /* White icon */
+}
+
+/* Style for the currently selected tab (dark theme) */
+.selected-tab {
+    -fx-background-color: #555; /* Darker grey to highlight */
+    -fx-text-fill: #fff; /* White text for visibility */
+    -fx-font-weight: bold;
+}
+
+/* Style for the selected tab name button */
+.selected-tab .name-button {
+    -fx-background-color: #666; /* Slightly lighter grey for the name button */
+    -fx-text-fill: #fff; /* White text */
+}
+
+/* Optional: Style for selected tab close button */
+.selected-tab .close-button {
+    -fx-background-color: #666; /* Lighter grey for the close button */
+}
+
+.underline-filename {
+    -fx-background-color: #009688; /* Deep teal */
+    -fx-min-height: 2px; /* Height of the underline */
+    -fx-pref-height: 2px;
+    -fx-max-height: 2px;
+    -fx-border-width: 0;
+}
+
+.code-editor-vbox {
+    -fx-background-color: #101010; /* Deep teal */
+}
+
+/* Styles for the HBox container */
+/* Styles for the HBox container */
+.input-box {
+    -fx-padding: 10;               /* Padding around the HBox */
+    -fx-spacing: 10;               /* Space between children */
+    -fx-alignment: center-left;    /* Align children to the left and center vertically */
+    -fx-background-color: #2e2e2e; /* Dark background color for the HBox */
+    -fx-border-color: #b0b0b0;     /* Light gray border color */
+    -fx-border-width: 1;           /* Thin border width */
+    -fx-border-radius: 0;          /* Sharp corners for the border */
+    -fx-background-radius: 0;      /* Sharp corners for the background */
+}
+
+/* Styles for the title Text */
+.input-box .text {
+    -fx-fill: #ffffff;             /* White text color */
+    -fx-font-size: 14px;           /* Font size */
+    -fx-font-weight: bold;         /* Bold text */
+}
+
+/* Styles for the TextField */
+.input-box .text-field {
+    -fx-background-color: #3e3e3e; /* Dark background for the text field */
+    -fx-text-fill: #ffffff;        /* White text color */
+    -fx-font-size: 14px;           /* Font size */
+    -fx-padding: 5;                /* Padding inside the text field */
+    -fx-border-color: #b0b0b0;     /* Border color matching the HBox */
+    -fx-border-width: 1;           /* Thin border */
+    -fx-border-radius: 0;          /* Sharp corners for the border */
+    -fx-background-radius: 0;      /* Sharp corners for the background */
+}
+
+/* Styles for the close button */
+.input-box .button {
+    -fx-background-color: transparent; /* Transparent background */
+    -fx-cursor: hand;                  /* Pointer cursor */
+    -fx-padding: 5;                    /* Padding around the button */
+    -fx-border-color: transparent;     /* No border for the button */
+}
+
+.input-box .button:hover {
+    -fx-background-color: #444444;     /* Slightly lighter background on hover */
+    -fx-border-radius: 0;              /* Keep sharp corners */
+    -fx-background-radius: 0;          /* Keep sharp corners */
+}
+
+.input-box .enter-button {
+    -fx-background-color: transparent; /* Transparent background */
+    -fx-cursor: hand;                  /* Pointer cursor */
+    -fx-fill: white;
+    -fx-padding: 5;                    /* Padding around the button */
+    -fx-border-color: transparent;     /* No border for the button */
+}
+
+.input-box .enter-button:hover {
+    -fx-background-color: #444444;     /* Slightly lighter background on hover */
+    -fx-border-radius: 0;              /* Keep sharp corners */
+    -fx-background-radius: 0;          /* Keep sharp corners */
+}
+
+.input-box .font-icon {
+    -fx-fill: #ffffff;                 /* White color for the icon */
+    -fx-font-size: 20px;               /* Icon size */
+}

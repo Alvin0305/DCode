@@ -1,0 +1,73 @@
+.code-editor {
+    -fx-background-color: #002B36;
+    -fx-highlight-fill: #073642;
+    -fx-highlight-text-fill: #839496;
+    -fx-font-family: Consolas, monospace;
+    -fx-text-fill: #839496;
+    -fx-padding: 0;
+    -fx-border-color: transparent;
+}
+
+.code-editor .caret {
+    -fx-stroke: #839496;
+}
+
+.line-number {
+    -fx-background-color: #073642;
+    -fx-text-fill: #586E75;
+    -fx-padding: 0 5px;
+    -fx-font-family: Consolas, monospace;
+    -fx-alignment: center-right;
+}
+
+.label.lineno {
+    -fx-background-color: #2b2b2b; /* Dark background */
+    -fx-text-fill: #a9b7c6; /* Light text */
+}
+
+.access-modifier {
+    -fx-fill: #268BD2; /* Blue */
+    -fx-font-weight: bold;
+}
+
+.control-flow {
+    -fx-fill: #CB4B16; /* Orange */
+    -fx-font-weight: bold;
+}
+
+.data-type {
+    -fx-fill: #2AA198; /* Cyan */
+}
+
+.other-keyword {
+    -fx-fill: #859900; /* Green */
+}
+
+.parenthesis, .brace, .bracket, .semicolon {
+    -fx-fill: #93A1A1; /* Grey */
+}
+
+.string {
+    -fx-fill: #B58900; /* Yellow */
+}
+
+.char {
+    -fx-fill: #6C71C4; /* Violet */
+}
+
+.number {
+    -fx-fill: #D33682; /* Magenta */
+}
+
+.comment {
+    -fx-fill: #586E75; /* Dark Grey */
+    -fx-font-style: italic;
+}
+
+.matching-bracket {
+    -fx-fill: #268BD2;
+}
+
+.default {
+    -fx-fill: #839496;
+}

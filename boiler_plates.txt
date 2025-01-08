@@ -1,0 +1,10 @@
+fori:for (int i = 0; i < ; i++)
+ifn:if (variable != null)
+println:System.out.println("");
+soutv:System.out.println(variable);
+inn:if (variable == null)
+iter:for (Iterator<T> iterator = collection.iterator(); iterator.hasNext();)
+main:public static void main(String[] args)
+hello:helloWorld
+sout:System.out.println();
+psvm:public static void main(String[] args)

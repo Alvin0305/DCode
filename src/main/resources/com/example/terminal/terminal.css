@@ -1,0 +1,39 @@
+.text-area {
+    -fx-font-family: 'Courier New';
+    -fx-font-size: 18px;
+    -fx-text-fill: green !important;
+    -fx-control-inner-background: black !important;
+    -fx-highlight-fill: lightgreen !important;
+    -fx-highlight-text-fill: black !important;
+    -fx-border-color: transparent !important;
+    -fx-padding: 0 !important;
+    -fx-border-width: 0 !important;
+    -fx-background-insets: 0 !important;
+    -fx-background-radius: 0 !important;
+    -fx-focus-color: transparent !important;
+    -fx-faint-focus-color: transparent !important;
+    -fx-effect: null !important;
+}
+
+/* ScrollPane containing the TextArea */
+.scroll-pane {
+    -fx-background-color: black !important; /* Match the TextArea background */
+    -fx-border-color: transparent !important; /* Remove borders */
+    -fx-padding: 0 !important;
+    -fx-border-width: 0 !important;
+    -fx-background-insets: 0 !important;
+}
+
+/* Parent SplitPane (if any) */
+.split-pane {
+    -fx-background-color: transparent !important;
+    -fx-border-color: transparent !important;
+}
+
+/* General container (if terminal is inside VBox or another pane) */
+.terminal {
+    -fx-background-color: transparent !important;
+    -fx-border-color: transparent !important;
+    -fx-padding: 0 !important;
+    -fx-border-width: 0 !important;
+}

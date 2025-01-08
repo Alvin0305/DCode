@@ -1,0 +1,113 @@
+/* settings.css */
+
+/* Style for the root settings page */
+.settings-page {
+    -fx-padding: 10;
+    -fx-background-color: #2b2b2b;
+    -fx-spacing: 10;
+    -fx-alignment: top-left;
+    -fx-font-family: "Arial, sans-serif";
+    -fx-text-fill: #ffffff;
+}
+
+/* Style for the options VBox (left panel) */
+.options {
+    -fx-padding: 10;
+    -fx-background-color: #3c3f41;
+    -fx-spacing: 5;
+    -fx-border-color: #555555;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+/* Style for individual labels in the options section */
+.options .label {
+    -fx-padding: 10;
+    -fx-font-size: 14;
+    -fx-text-fill: #dddddd;
+    -fx-cursor: pointer;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-background-color: transparent;
+    -fx-alignment: center-left;
+    -fx-pref-width: 100%; /* Ensures label takes up full horizontal space */
+}
+
+.options .label:hover {
+    -fx-background-color: #555555;
+}
+
+/* settings_dark.css */
+.settings {
+    -fx-background-color: #1e1e1e; /* Dark background color */
+    -fx-padding: 20px;
+    -fx-spacing: 20px;
+}
+
+.text {
+    -fx-fill: #ffffff; /* White text for readability */
+    -fx-font-size: 14px;
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-vpos: center; /* Ensures vertical alignment */
+}
+
+.radio-button {
+    -fx-text-fill: #ffffff; /* White text for RadioButtons */
+}
+
+.combo-box {
+    -fx-background-color: #333333; /* Darker background for ComboBox */
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #555555;
+    -fx-border-width: 1px;
+    -fx-padding: 5px;
+}
+
+.combo-box:hover {
+    -fx-border-color: #0078d7; /* Highlight color on hover */
+}
+
+.text-field {
+    -fx-background-color: #2e2e2e; /* Slightly lighter background for text fields */
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #555555;
+    -fx-border-width: 1px;
+    -fx-padding: 5px;
+}
+
+.text-field:focused {
+    -fx-border-color: #0078d7; /* Highlight color when focused */
+}
+
+.radio-button .radio {
+    -fx-mark-color: #0078d7; /* Color for selected radio button */
+}
+
+/* Style for HBox */
+.hbox {
+    -fx-alignment: center-left; /* Align items in HBox to the left */
+    -fx-spacing: 20px;
+    -fx-padding: 5px; /* Ensure consistent spacing around items */
+}
+
+.hbox .text {
+    -fx-vpos: center; /* Vertically align text */
+    -fx-padding: 0; /* Avoid additional padding */
+}
+
+.button {
+    -fx-background-color: #2e2e2e; /* Darker button background */
+    -fx-text-fill: #ffffff; /* White text for buttons */
+    -fx-border-color: #555555;
+    -fx-border-width: 1px;
+    -fx-padding: 8px 15px;
+    -fx-font-size: 13px;
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #0078d7; /* Blue highlight on hover */
+    -fx-text-fill: #ffffff;
+}

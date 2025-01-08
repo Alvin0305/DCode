@@ -1,0 +1,19 @@
+/* Remove borders from all panes */
+.pane {
+    -fx-background-color: transparent; /* Or your desired background color */
+    -fx-border-color: transparent;
+    -fx-padding: 0;
+}
+
+/* Style the SplitPane dividers */
+.split-pane .split-pane-divider {
+    -fx-background-color: #333333; /* General divider color */
+    -fx-pref-height: 2px;
+    -fx-pref-width: 2px;
+}
+
+
+/* Optional: Hover effect for the divider */
+.split-pane .split-pane-divider:hover {
+    -fx-background-color: #5c5c5c; /* Slightly lighter color on hover */
+}

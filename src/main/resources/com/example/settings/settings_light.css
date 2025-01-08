@@ -1,0 +1,51 @@
+/* Light Mode Styles */
+
+/* Style for the root settings page */
+.settings-page {
+    -fx-padding: 10;
+    -fx-background-color: #f5f5f5;
+    -fx-spacing: 10;
+    -fx-alignment: top-left;
+    -fx-font-family: "Arial, sans-serif";
+    -fx-text-fill: #333333;
+}
+
+/* Style for the options VBox (left panel) */
+.options {
+    -fx-padding: 10;
+    -fx-background-color: #ffffff;
+    -fx-spacing: 5;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+/* Style for individual labels in the options section */
+.options .label {
+    -fx-padding: 10;
+    -fx-font-size: 14;
+    -fx-text-fill: #333333;
+    -fx-cursor: pointer;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-background-color: transparent;
+    -fx-alignment: center-left;
+    -fx-pref-width: 100%; /* Ensures label takes up full horizontal space */
+}
+
+.options .label:hover {
+    -fx-background-color: #e0e0e0;
+}
+
+/* Style for the settings VBox (right panel) */
+.settings {
+    -fx-padding: 10;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-alignment: top-left;
+    -fx-text-fill: #333333;
+}

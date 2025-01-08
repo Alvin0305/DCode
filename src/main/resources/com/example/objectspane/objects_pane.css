@@ -1,0 +1,9 @@
+.object_pane {
+    -fx-control-inner-background: black;
+    -fx-background-color: #222222;
+}
+
+.context_menu {
+    -fx-control-inner-background: black;
+    -fx-background-color: #222222;
+}

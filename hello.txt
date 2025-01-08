@@ -1,0 +1,15 @@
+public class Main {
+	String var1 = "Alvin";
+	static int var2 = 19;
+	int var3 = 7;
+	
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+		String name = "Alvin";
+		int age = 19;
+		int a = 7;
+		var2 = 20;
+		
+	}
+	public int a = 7;
+}

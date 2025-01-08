@@ -1,0 +1,47 @@
+.side-bar {
+    -fx-background-color: #2d2d2d; /* Dark background similar to VSCode */
+    -fx-padding: 10; /* Padding inside the sidebar */
+    -fx-spacing: 10; /* Space between buttons */
+    -fx-alignment: top-center; /* Align children to the top-center */
+}
+
+.side-bar .button {
+    -fx-background-color: transparent; /* Transparent background by default */
+    -fx-padding: 10; /* Padding around icons */
+    -fx-cursor: hand; /* Pointer cursor on hover */
+    -fx-alignment: center; /* Center-align content */
+    -fx-border-color: transparent; /* No border by default */
+    -fx-border-width: 0 0 2 0; /* Bottom border for active effect (hidden by default) */
+    -fx-border-radius: 0; /* Sharp corners */
+}
+
+.side-bar .button:hover {
+    -fx-background-color: #3c3f41; /* Slightly lighter background on hover */
+}
+
+.side-bar .button:pressed {
+    -fx-background-color: #1e90ff; /* Highlight on click (blue tone) */
+    -fx-border-color: #1e90ff; /* Border matches highlight */
+}
+
+.side-bar .button:focused {
+    -fx-background-color: #1e90ff; /* Highlight focused button */
+    -fx-border-color: #1e90ff;
+}
+
+.side-bar .button .font-icon {
+    -fx-fill: #ffffff; /* White color for icons */
+    -fx-font-size: 20px; /* Larger icon size for visibility */
+}
+
+.side-bar .button:hover .font-icon {
+    -fx-fill: #1e90ff; /* Blue color for icon on hover */
+}
+
+.side-bar .button:pressed .font-icon {
+    -fx-fill: white; /* Maintain white icon on click */
+}
+
+.side-bar .region {
+    -fx-background-color: transparent; /* Transparent spacer */
+}
