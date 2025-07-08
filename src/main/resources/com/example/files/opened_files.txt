@@ -1,4 +1,3 @@
-/home/alvin/Programs/Assets/DCode/UserCode.java
-/home/alvin/Programs/Assets/DCode/boiler_plates.txt
-/home/alvin/Programs/Assets/DCode/new_trial.java
-/home/alvin/Programs/Assets/DCode/Code.java
+/home/alvin/Codes/Java/DCode/Main.java
+/home/alvin/Codes/Java/DCode/boiler_plates.txt
+/home/alvin/Codes/Java/code.java

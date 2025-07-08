@@ -57,8 +57,12 @@ public class CodeEditor extends VBox {
         }
         File openedFiles = new File("src/main/resources/com/example/files/opened_files.txt");
         if (!openedFiles.exists()) {
+            System.out.println("src not exist");
             openedFiles = new File("classes/com/example/opened_files.txt");
+        } else {
+            System.out.println("src exists");
         }
+        System.out.println(openedFiles.toPath());
         List<String> fileNames = Files.readAllLines(openedFiles.toPath());
         for (String fileName: fileNames) {
             System.out.println(fileName);

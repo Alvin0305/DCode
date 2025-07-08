@@ -420,7 +420,7 @@ public class TopMenuBar extends HBox {
         System.out.println(fileName);
         String name = fileName.substring(0, fileName.indexOf("."));
         System.out.println(name);
-        terminal.execute("cd " + parent.toString() + " && javac --release 17 " + fileName);
+        terminal.execute("cd " + parent.toString() + " && javac --release 21 " + fileName);
     }
 
     private void handleBuildAll() {
